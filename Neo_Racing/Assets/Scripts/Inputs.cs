@@ -2,14 +2,17 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 
 public class Inputs : MonoBehaviour
 {
+    [SerializeField] TMP_Text playerScore;
+    int score = 0;
 
     void Start (){
-
+        
     }
-    [SerializeField] TextMesh playerScore;
+    
 
     public string button;
     public string nombre;
@@ -17,9 +20,13 @@ public class Inputs : MonoBehaviour
     {
         if (Input.GetButtonDown(button))
         {
-            Debug.Log(nombre);
+            IncreaseScore();
         }
-        
+        playerScore.text = score.ToString();
     }
     
+    void IncreaseScore()
+    {
+        score++;
+    }
 }

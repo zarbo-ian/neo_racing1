@@ -7,15 +7,13 @@ using TMPro;
 public class Inputs : MonoBehaviour
 {
     [SerializeField] TMP_Text playerScore;
+    public string button;
+    public string nombre;
     int score = 0;
-
     void Start (){
         
     }
-    
 
-    public string button;
-    public string nombre;
     void Update()
     {
         if (Input.GetButtonDown(button))

@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 499277138}
   - component: {fileID: 499277140}
   - component: {fileID: 499277139}
-  - component: {fileID: 499277141}
   m_Layer: 5
   m_Name: Score 2
   m_TagString: Untagged
@@ -394,21 +393,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499277137}
   m_CullTransparentMesh: 1
---- !u!114 &499277141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499277137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: {fileID: 499277139}
-  button: Fire2
-  nombre: Jugador 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +632,7 @@ GameObject:
   - component: {fileID: 612309363}
   - component: {fileID: 612309365}
   - component: {fileID: 612309364}
+  - component: {fileID: 612309366}
   m_Layer: 5
   m_Name: Player 3
   m_TagString: Untagged
@@ -774,6 +759,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612309362}
   m_CullTransparentMesh: 1
+--- !u!114 &612309366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612309362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: {fileID: 622204853}
+  button: Fire3
+  numero: 1
+  jugador: {fileID: 612309362}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &622204851
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +787,6 @@ GameObject:
   - component: {fileID: 622204852}
   - component: {fileID: 622204854}
   - component: {fileID: 622204853}
-  - component: {fileID: 622204855}
   m_Layer: 5
   m_Name: Score 3
   m_TagString: Untagged
@@ -911,21 +912,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622204851}
   m_CullTransparentMesh: 1
---- !u!114 &622204855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622204851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: {fileID: 622204853}
-  button: Fire3
-  nombre: Jugador 3
 --- !u!1 &687508069
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +923,6 @@ GameObject:
   - component: {fileID: 687508070}
   - component: {fileID: 687508072}
   - component: {fileID: 687508071}
-  - component: {fileID: 687508073}
   m_Layer: 5
   m_Name: Score 4
   m_TagString: Untagged
@@ -1063,21 +1048,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687508069}
   m_CullTransparentMesh: 1
---- !u!114 &687508073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687508069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: {fileID: 687508071}
-  button: Jump
-  nombre: Jugador 4
 --- !u!1 &697281735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697281736}
   - component: {fileID: 697281738}
+  - component: {fileID: 697281739}
   - component: {fileID: 697281737}
   m_Layer: 5
   m_Name: Player 2
@@ -1215,6 +1186,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697281735}
   m_CullTransparentMesh: 1
+--- !u!114 &697281739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697281735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: {fileID: 499277139}
+  button: Fire2
+  numero: 1
+  jugador: {fileID: 697281735}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &903009350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1214,6 @@ GameObject:
   - component: {fileID: 903009351}
   - component: {fileID: 903009353}
   - component: {fileID: 903009352}
-  - component: {fileID: 903009354}
   m_Layer: 5
   m_Name: Score 1
   m_TagString: Untagged
@@ -1352,21 +1339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903009350}
   m_CullTransparentMesh: 1
---- !u!114 &903009354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903009350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: {fileID: 903009352}
-  button: Fire1
-  nombre: Jugador 1
 --- !u!1 &1392245247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,6 +1425,7 @@ GameObject:
   - component: {fileID: 1634706745}
   - component: {fileID: 1634706747}
   - component: {fileID: 1634706746}
+  - component: {fileID: 1634706748}
   m_Layer: 5
   m_Name: Player 4
   m_TagString: Untagged
@@ -1579,6 +1552,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634706744}
   m_CullTransparentMesh: 1
+--- !u!114 &1634706748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634706744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: {fileID: 687508071}
+  button: Jump
+  numero: 1
+  jugador: {fileID: 1634706744}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1711091334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1761,7 @@ GameObject:
   - component: {fileID: 1773858568}
   - component: {fileID: 1773858570}
   - component: {fileID: 1773858569}
+  - component: {fileID: 1773858571}
   m_Layer: 5
   m_Name: Player 1
   m_TagString: Untagged
@@ -1897,6 +1888,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773858567}
   m_CullTransparentMesh: 1
+--- !u!114 &1773858571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773858567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d801eccea87b3084db034f02bc6142a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: {fileID: 903009352}
+  button: Fire1
+  numero: 1
+  jugador: {fileID: 1773858567}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1819761325
 GameObject:
   m_ObjectHideFlags: 0

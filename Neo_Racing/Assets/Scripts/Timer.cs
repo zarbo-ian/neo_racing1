@@ -11,8 +11,16 @@ public class Timer: MonoBehaviour
 
     private void Update()
     {
-        time -= Time.deltaTime;
         display.text = time.ToString("f0");
+        if (time > 0)
+        {
+            time -= Time.deltaTime;
+        }
+        else
+        {
+            
+        }
+        
     }
 
 }

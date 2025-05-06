@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Timer.cs" />
-    <Compile Include="Assets\Scripts\ElementShake.cs" />
     <Compile Include="Assets\Scripts\Inputs.cs" />
   </ItemGroup>
   <ItemGroup>

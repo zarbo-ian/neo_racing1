@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.Timeline.Actions;
+using Unity.VisualScripting;
 
 public class Timer: MonoBehaviour
 {
@@ -14,9 +16,13 @@ public class Timer: MonoBehaviour
     public Vector3 startPos;
     public GameObject button;
 
+    bool invoked = false;
+
     private void Start()
     {
-        startPos = button.transform.position;
+        //startPos.x = button.transform.position.x;
+        //startPos.y = button.transform.position.y;
+        startPos = transform.position;
     }
     private void Update()
     {
@@ -25,12 +31,16 @@ public class Timer: MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-        if (time <= 10)
+        if (time <= 9.5f && invoked == false)
         {
-            InvokeRepeating("ShakeTimerWrapper", 0.0f, 1.0f);
-
+            display.color = Color.red;
+            InvokeRepeating("ShakeTimerWrapper", 0.1f, 1.0f); //no me permite llamar al método directamente así que necestio el warper
+            invoked = true;
         }
-
+        if (time <= 0f)
+        {
+            CancelInvoke("ShakeTimerWrapper");
+        }
     }
     private void LateUpdate()
     {
@@ -50,14 +60,14 @@ public class Timer: MonoBehaviour
         {
             //float moveX = Mathf.MoveTowards(transform.position.x, startPos.x, shakeFadeTime * 2 * Time.deltaTime);
             //float moveY = Mathf.MoveTowards(transform.position.y, startPos.y, shakeFadeTime * 2 * Time.deltaTime);
-            button.transform.position = startPos;
+            transform.position = startPos;
         }
         transform.rotation = Quaternion.Euler(0f, 0f, shakeRotation * Random.Range(-1f, 1f));
     }
 
     void ShakeTimerWrapper()
     {
-        ShakeTimer(0.05f, 0.5f);
+        ShakeTimer(0.5f, 0.5f);
     }
 
 

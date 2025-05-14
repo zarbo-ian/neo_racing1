@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Github\\Neo_Racing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|C:\\Github\\Neo_Racing\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|c:\\github\\neo_racing\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|c:\\github\\neo_racing\\assets\\scripts\\inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|C:\\Github\\Neo_Racing\\assets\\scripts\\inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF46B249-9DE7-85A9-488B-4ABE3A2F0393}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inputs.cs",
               "ToolTip": "C:\\Github\\Neo_Racing\\Assets\\Scripts\\Inputs.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inputs.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwCUAAAAdAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T18:37:29.834Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
               "ToolTip": "C:\\Github\\Neo_Racing\\Assets\\Scripts\\Timer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwDsAAAAXAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T21:40:20.991Z",
               "EditorCaption": ""

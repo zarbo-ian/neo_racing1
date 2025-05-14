@@ -777,6 +777,12 @@ MonoBehaviour:
   numero: 1
   jugador: {fileID: 612309362}
   startPos: {x: 0, y: 0, z: 0}
+  other_player1: {fileID: 1773858567}
+  other_player2: {fileID: 697281735}
+  other_player3: {fileID: 1634706744}
+  other_score1: 0
+  other_score2: 0
+  other_score3: 0
 --- !u!1 &622204851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1210,12 @@ MonoBehaviour:
   numero: 1
   jugador: {fileID: 697281735}
   startPos: {x: 0, y: 0, z: 0}
+  other_player1: {fileID: 1773858567}
+  other_player2: {fileID: 612309362}
+  other_player3: {fileID: 1634706744}
+  other_score1: 0
+  other_score2: 0
+  other_score3: 0
 --- !u!1 &903009350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1582,12 @@ MonoBehaviour:
   numero: 1
   jugador: {fileID: 1634706744}
   startPos: {x: 0, y: 0, z: 0}
+  other_player1: {fileID: 1773858567}
+  other_player2: {fileID: 697281735}
+  other_player3: {fileID: 612309362}
+  other_score1: 0
+  other_score2: 0
+  other_score3: 0
 --- !u!1 &1711091334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,6 +1923,12 @@ MonoBehaviour:
   numero: 1
   jugador: {fileID: 1773858567}
   startPos: {x: 0, y: 0, z: 0}
+  other_player1: {fileID: 697281735}
+  other_player2: {fileID: 612309362}
+  other_player3: {fileID: 1634706744}
+  other_score1: 0
+  other_score2: 0
+  other_score3: 0
 --- !u!1 &1819761325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,7 +2020,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2057,7 +2081,7 @@ MonoBehaviour:
   time: 20
   display: {fileID: 1819761327}
   startPos: {x: 0, y: 0, z: 0}
-  button: {fileID: 0}
+  button: {fileID: 1392245247}
 --- !u!1 &2017444325
 GameObject:
   m_ObjectHideFlags: 0
